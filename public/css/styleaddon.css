@@ -1,0 +1,98 @@
+.bg-bluega {
+    background-color: #1C2D5B;
+}
+
+.text-bluega {
+    color: #1C2D5B;
+}
+
+.text-grayga {
+    color: gray;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.bg-back {
+    background-color: #ECEFF4;
+}
+
+ul li a {
+    color: gray;
+}
+
+ul li a:hover {
+    color: #1C2D5B;
+}
+
+.carousel-item img {
+    width: 1280px;
+    height: 380px;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+.zoomcard {
+    border-radius: 4px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05);
+    transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
+    cursor: pointer;
+}
+
+.zoomcard:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
+}
+
+.zoom:hover {
+    transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12),
+        .3s box-shadow,
+        .3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
+    transform: scale(1.1);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.blog-footer p:last-child {
+    margin-bottom: 0;
+}
+
+section div div a:hover {
+    color: #1C2D5B;
+}
+
+.btn-outline-bluega {
+    /* background-color: #1C2D5B !important; */
+    background-repeat: repeat-x;
+    border-color: #1C2D5B !important;
+    color: #1C2D5B !important;
+}
+
+.btn-outline-bluega:hover,
+.btn-outline-bluega:focus,
+.btn-outline-bluega:active,
+.btn-outline-bluega.active,
+.open .dropdown-toggle.btn-outline-bluega {
+    background-color: #112047 !important;
+    background-repeat: repeat-x;
+    background-image: #112047;
+    color: #ffffff !important;
+}
+
+.btn-bluega {
+    background-color: #1C2D5B !important;
+    background-repeat: repeat-x;
+    border-color: #1C2D5B !important;
+    color: white !important;
+}
+
+.btn-bluega:hover,
+.btn-bluega:focus,
+.btn-bluega:active,
+.btn-bluega.active,
+.open .dropdown-toggle.btn-bluega {
+    background-color: #112047 !important;
+    background-repeat: repeat-x;
+    background-image: #112047;
+    color: #ffffff !important;
+}
